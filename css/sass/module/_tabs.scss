@@ -4,11 +4,11 @@
  margin-bottom: 25px;
 }
 .tabs-item {
-	display: inline-block;
-	height: 40px;
-	padding-top: 5px;
+  display: inline-block;
+  height: 40px;
+  padding-top: 5px;
 }
 .active {
-	background-color: $primary-color;
-	@include border-radius(10px);
+  background-color: $primary-color;
+  @include border-radius(10px);
 }
