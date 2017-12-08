@@ -28,10 +28,10 @@ img {
   margin: 0 auto;
 }
 h2{
-    font-weight: bold;
-    font-size: 20px;
-    color: $color-service;
-    padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: $color-service;
+  padding-bottom: 20px;
 }
 .title {
   text-align: center;
@@ -44,18 +44,18 @@ h2{
 }
 
 .image-icon::before { 
-    content: "";
-    position: absolute;
-    border-top: 1px solid #ccc;
-    right: 24%;
-    top: 30%;
-    width: 300px;
+  content: "";
+  position: absolute;
+  border-top: 1px solid #ccc;
+  right: 24%;
+  top: 30%;
+  width: 300px;
 }
 .image-icon::after { 
-    content: "";
-    position: absolute;
-    border-top: 1px solid #ccc;
-    left: 24%;
-    top: 30%;
-    width: 300px;
+  content: "";
+  position: absolute;
+  border-top: 1px solid #ccc;
+  left: 24%;
+  top: 30%;
+  width: 300px;
 }
