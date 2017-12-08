@@ -5,18 +5,18 @@ div {
   padding: 0;
 }
 a{
-	display: block;
-  padding: 6px 12px;
-	text-decoration: none;
-	color:$color-a;
+  display: block;
+  padding:6px 12px;
+  text-decoration: none;
+  color: $color-a;
 }
 ul{
-	margin: 0;
+  margin:0;
   padding: 0;
   list-style: none;
 }
 li{
-	display: inline-block;
+  display: inline-block;
 }
 img {
   max-height: 100%;
@@ -38,9 +38,9 @@ h2{
   margin-top: 50px;
 }
 .title .image-icon{
-	padding-bottom: 40px;
+  padding-bottom: 40px;
   margin:0 auto;
-	position: relative;
+  position: relative;
 }
 
 .image-icon::before { 
