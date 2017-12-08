@@ -1,28 +1,27 @@
 @import '../base/variable';
 footer {
-	width: 100%;
-	height: 80px;
-	background-color: $color-black;
-	
-	.left {
-		color: $color-white;
-		font-size: 13px;
-		width: 50%;
-		float:left;
-		padding-top: 40px;
-		padding-left: 10%;
-		padding-right: 10%;
-	}
-	.right {
-		color: $color-white;
-		font-size: 13px;
-		width: 50%;
-		float:left;
-		padding-top: 40px;
-		padding-left: 30%;	
-	}
-	span {
-		color: $primary-color;
-	}
+  width: 100%;
+  height: 80%;
+  background-color: $color-black;
+  .left {
+    color: $color-white;
+    font-size: 13px;
+    width: 50%;
+    float: left;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .right {
+    color: $color-white;
+    font-size: 13px;
+    width: 50%;
+    float: left;
+    padding-top: 40px;
+    padding-left: 30px;
+  }
+  span {
+    color: $primary-color;
+  }
 }
 
