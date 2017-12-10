@@ -1,0 +1,46 @@
+Câu 1:Sự khác nhau giữa 'null' và 'undefined' trong javascript:
+-null:là giá trị của một biến,giá trị này là giá trị rỗng hặc giá trị không tồn tại.
+-undefined:là trạng thái biến chưa được gán giá trị,giá trị của biến là không xác định.
+
+Câu 2:'use strict' là gì? Những lợi ích và bất lợi khi sử dụng.
+-Strict mode là một quy mẫu của javascript,là những qui định nghiêm ngặt trong viết code.
+-Use strict là từ khóa khai báo sử dụng chế độ 'strict mode'.Khi ta muốn sử dụng chế độ 'strict mode' ở đâu thì ta đặt từ khóa 'use strict' ở đó.Việc khai báo 'use strict' ở đâu sẽ quyết định phạm vi ảnh hưởng của 'strict mode'.
++Nếu đặt 'use strict' ở đầu file thì phạm vi của 'strict mode' sẽ là toàn bộ file đó.
++Nếu đặ 'use strict' ở phần thân hàm của một function thì 'strict mode' sex được áp dụng cho chỉ mình function đó.
+-NHững lợi ích khi sử dụng 'use trict':
++Vô hiệu hóa tính năng có thể gây nhầm lẫn hoặc không thể sử dụng.
++NGăn chặn việc sử dụng teen những từ khóa để tạo tên biến hay sử dụng biến mà chưa cần định nghĩa khi làm việc với javascript.
+-Những bất lợi khi sử dụng 'use strict':
++Không thể sử dụng một biến mà không khai báo.
++Báo lỗi khi xóa những thứ không thể xóa.
++Các tham số của một hàm không được phép trùng nhau.
++Không sử dụng được cách viết số thuộc hệ bát phân với tiền số là 0.
++Không thể sử dụng 'with'.
++Không sử dụng được biến được khai báo trong 'eval'.
++Không thể định nghĩa function bên trong một statement hay một block.
++Thay đổi cách thức hoạt động của 'this' trong một số trường hợp.
+
+Câu 3:Sự khác nhau giữa "==" và "===" :
++ '==':Chỉ so sánh về giá trị,nếu 2 vế cò cùng giá trị thì kết quả sẽ trả về true.
+ví dụ: var a=12;
+       var b='12';
+	if(a==b) {
+	return true;
+	}esle {
+	return false;
+	}
+=>true
++ '===':So sánh về cả kiểu dữ liêụ và giá trị của cả 2 vế.Nếu 2 vế có cùng giá trị và kiểu dữ liệu thì sẽ trả về kết quả là true.
+ví dụ: var a=12;
+       var b='12';
+	if(a===b) {
+	return true;
+	}esle {
+	return false;
+	}
+=>false :vì a là kiểu int,b là kiểu string nên 2 vế khác kiểu dữ liệu.
+Câu 4:Sự khác nhau giuữa 'var','const' và 'let':
+-Var:là cách khai báo biến,biến này được sử dụng trong function scope.
+-Let:là cách khai báo biến,biến này chỉ có ý nghĩa trong block scope mà nó được khai báo,giá trị có thể được thay đổi.
+-Const:Là cách khai báo biến,cách sử dụng giống như let nhưng nó được xem như một hằng số và có giá trị không thay đổi trong block scope.
+
