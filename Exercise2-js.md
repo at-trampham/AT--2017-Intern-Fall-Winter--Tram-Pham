@@ -4,8 +4,10 @@
 
  **Javascript**
  -What are the differences between 'function declaration' and 'function expressions'?
+```
 +A Function Declaration defines a named function variable without requiring variable assignment. 
 +A Function Expression defines a function as a part of a larger expression syntax (typically a variable assignment ). Functions defined via Functions Expressions can be named or anonymous. 
+```
 **example**
 * Function Declaration *
 ```
