@@ -1,0 +1,49 @@
+@import 'variable';
+div {
+  margin: 0;
+  padding: 0;
+}
+a{
+  font-family: $font-body;
+	text-decoration: none;
+  color: #333;
+}
+a:hover {
+  color: $primary-color;
+}
+p {
+  font-family: $font-text;
+  color: $secondary-color;
+  display: block;
+  font-size: 17px;
+  line-height: 30px;
+}
+ul{
+	margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li{
+	display: inline-block;
+
+}
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+h2{
+    font-family: $font-title;
+    font-size: 45px;
+}
+h3{
+
+  font-family: $font-title;
+  font-size: 45px;
+  color: $primary-color;
+}
